@@ -8,7 +8,7 @@ namespace DiegoDiegoDiego.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ActionResult First()
         {
             return View();
         }
@@ -26,5 +26,7 @@ namespace DiegoDiegoDiego.Controllers
 
             return View();
         }
+
+        public ActionResult Resume() => View();
     }
 }
